@@ -45,13 +45,13 @@ export default function Dashboard() {
             <h3 className="font-medium text-gray-900 mb-1">Listing Generator</h3>
             <p className="text-sm text-gray-500">AI writes your listing descriptions</p>
           </a>
-          <a href="#" className="bg-white rounded-xl border border-gray-200 p-6 hover:border-green-300 hover:shadow-sm transition cursor-pointer opacity-50">
-            <div className="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center mb-3">
-              <span className="text-purple-600 font-bold text-sm">📸</span>
-            </div>
-            <h3 className="font-medium text-gray-900 mb-1">Photo Enhancer</h3>
-            <p className="text-sm text-gray-500">Coming soon</p>
-          </a>
+          <a href="/photos" className="bg-white rounded-xl border border-gray-200 p-6 hover:border-green-300 hover:shadow-sm transition cursor-pointer">
+  <div className="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center mb-3">
+    <span className="text-purple-600 font-bold text-sm">📸</span>
+  </div>
+  <h3 className="font-medium text-gray-900 mb-1">Photo Enhancer</h3>
+  <p className="text-sm text-gray-500">Make listing photos professional</p>
+</a>
         </div>
 
         <div className="grid grid-cols-2 gap-4">
